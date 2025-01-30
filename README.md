@@ -56,7 +56,8 @@ DeviceFileEvents
 | order by Timestamp desc
 ```
 
-![image](https://github.com/user-attachments/assets/2193e5b2-79b0-4f4c-9e58-0d1ce9000200)
+![image](https://github.com/user-attachments/assets/eebaad89-5400-4018-9f0b-d42eeaf0b152)
+
 
 ### **Findings:**
 - **Tor Installer Downloaded:** `tor-browser-windows-x86_64-portable-14.0.4.exe` was found in `C:\Users\employee-012\Downloads`.
@@ -77,7 +78,8 @@ DeviceProcessEvents
 | project Timestamp, AccountName, ActionType, FileName, FolderPath, ProcessCommandLine, SHA256
 ```
 
-![image](https://github.com/user-attachments/assets/44574e68-cd65-4ee1-9b76-7cc6583d0fd2)
+![image](https://github.com/user-attachments/assets/48e4cfc4-b315-485b-92a1-3e266de19daa)
+
 
 ### **Findings:**
 - **Silent Installation Executed:** The user ran `tor-browser-windows-x86_64-portable-14.0.4.exe` using a `/S` flag, indicating a silent installation.
@@ -98,7 +100,8 @@ DeviceProcessEvents
 | order by Timestamp desc
 ```
 
-![image](https://github.com/user-attachments/assets/f8a401b8-29e9-4b2f-a1e5-78394c671fa5)
+![image](https://github.com/user-attachments/assets/4722f467-c7a4-4956-b66f-665b5b7cb114)
+
 
 **Findings**
 - **Tor Browser Execution Confirmed:** User "employee-012" launched the Tor Browser, with multiple instances of `tor.exe` and `firefox.exe` detected.
@@ -120,7 +123,8 @@ DeviceNetworkEvents
 | order by Timestamp desc
 ```
 
-![image](https://github.com/user-attachments/assets/d163caa9-1010-4f00-87fd-a0d4b5e7b83c)
+![image](https://github.com/user-attachments/assets/db208f8b-8155-4d4a-b537-69c9d0a5a193)
+
 
 ### **Findings:**
 - **Tor Network Connection Established:** At `2025-01-30T02:52:59Z`, `tor.exe` successfully connected to `171.25.193.20:9050`.
